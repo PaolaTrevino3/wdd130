@@ -2,6 +2,19 @@ main {
     max-width: 840px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+    background-color: rgb(126, 65, 15);
+    text-decoration: dashed;
+}
+
 h1 {
     color: rgb(160, 132, 10);
     margin: 1rem 0;
