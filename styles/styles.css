@@ -2,6 +2,11 @@ main {
     max-width: 840px;
 }
 
+h1 {
+    color: rgb(160, 132, 10);
+    margin: 1rem 0;
+}
+
 main img {
     width: 150px;
     height: auto;
