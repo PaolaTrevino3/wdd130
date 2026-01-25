@@ -123,9 +123,8 @@ footer {
 /* Social Media */
 .socialmedia a {
     text-decoration: none;
-    margin: 0 8px;
 }
 
 .socialmedia img {
-    width: 32px;
+    width: 20px;
 }
