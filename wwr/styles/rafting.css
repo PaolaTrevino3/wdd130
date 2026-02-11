@@ -135,6 +135,13 @@ article {
     background-color: var(--accent1-color);
 }
 
+.map {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+}
+
 /* Hero Section*/
 .hero {
     position: relative;
