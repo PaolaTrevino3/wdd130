@@ -24,9 +24,12 @@ body {
 
 /*page width*/
 header,
-main,
 footer {
-    width: 840px;
+    width: 100%;
+}
+
+main {
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -214,6 +217,115 @@ article {
 figcaption {
     margin-top: 8px;
     font-weight: bold;
+}
+
+/* newsletter section*/
+.newsletter {
+    background-color: var(--accent2-color);
+    padding: 32px;
+    text-align: center;
+}
+
+.newsletter form {
+    display: grid;
+    gap: 12px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.newsletter button:hover {
+    background-color: var(--accent1-color);
+}
+
+/*call to action*/
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: black;
+    padding: 14px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.cta-button:hover {
+    background-color: var(--accent2-color);
+}
+
+/*home content*/
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 32px;
+    align-items: center;
+}
+
+.home-grid img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Trips grid*/
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 32px;
+}
+
+.trip {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/*trips table*/
+.trip-table {
+    padding: 32px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 /* Footer */
